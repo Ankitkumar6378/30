@@ -1,51 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>LOGIN PAGE</title>
-    </head>
-    <link rel="stylesheet" href="style.css">
-    <script src="blank.js"></script>
-    <script src="length.js"></script>
-    <script src="special.js"></script>
-   
- 
 
-    <body>
-        <div class="container"> 
+<head>
+    <title>LOGIN PAGE</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<!-- <script src="blank.js"></script>
+<script src="length.js"></script>
+<script src="special_char.js"></script> -->
+<script src="length_blank.js"></script>
+
+
+
+<body>
+    <div class="container">
 
         <form id="form" method="post">
-           <h2>Phone Number</h2>
+            <h2>Phone Number</h2>
 
 
-           <!-- <-----------(error code)--------->  
-            <!-- <?php if (isset($_GET['error'])) { ?>
-     		<p class="error"><?php echo $_GET['error']; ?></p>
-     	     <?php } ?>  -->
-           <!-- <----------------(End)-------------- -->
-                
-                <label>Phone Number :</label>
-                <input type="number" name="number" id="number"placeholder="Enter Phone number"class="login" required><br>
-                
-           
-                
-                <button id="btn"onclick="test()"name="button" value="Submit">Submit</button>
-               
+            <label>Phone Number :</label>
+            <input type="text" name="number" id="number" placeholder="Enter Phone number" class="login"><br>
 
-            
-            </form>
-            <script>
-                function test()
-                {
-                    blank(number);
-                  
 
-                }
-              
-            </script>
-        </div>
-     
-       
-        
+
+            <button id="btn" onclick="validate(number)" name="button" value="Submit">Submit</button>
+
+
+
+        </form>
+      
+    </div>
+
+
+
 </body>
+
 </html>
-        
