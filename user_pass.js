@@ -77,6 +77,7 @@ function validation()
         throw new Error("password must contain one special character\n");
 
     }
-    document.getElementById('console').innerHTML = "<h3 style='color:green'> User Name is: </h3>"+ user ;
+    // document.getElementById('console').innerHTML = "<h3 style='color:green'> User Name is: </h3>"+ user ;
+    return true;
 
 }

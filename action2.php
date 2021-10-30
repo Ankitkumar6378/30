@@ -11,7 +11,7 @@
   	$res_u = mysqli_query($db, $sql_u);
 
   	if (mysqli_num_rows($res_u) > 0) {
-  	  $name_error = "Sorry... username already taken"; 	
+  	  echo "Sorry... username already taken"; 	
   		
   	}else{
            $query = "INSERT INTO users (username, password) 

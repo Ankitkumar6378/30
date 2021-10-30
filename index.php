@@ -1,5 +1,5 @@
 
-<?php include('action2.php') ?>  
+<!-- <?php include('action2.php') ?>   -->
 <!DOCTYPE html>
 <html>
 
@@ -12,7 +12,7 @@
 
 <body>
     <div class="container"id="console">
-        <form id="form" action="index.php" method="POST" >
+        <form id="form" action="action2.php" method="POST" >
            
             <h2>LOGIN PAGE</h2>
 
@@ -22,11 +22,17 @@
             <label>Password</label>
             <input type="password" name="password" id="password" placeholder="Password" class="login"><br>
 
-            <button id="btn" name="register" value="Submit">Login</button>
+            <button id="btn" name="register" onclick="test()" value="Submit">Login</button>
             
         </form>
         <!-- <div id="console"></div> -->
     </div>
+    <script>
+        function test()
+        {
+            return (verifyNull() && valid());
+        }
+    </script>
    
 
 </body>

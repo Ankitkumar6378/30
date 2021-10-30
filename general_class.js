@@ -10,5 +10,5 @@
     isValid = false;
          alert('Please enter password');
     }
-   return isValid;
+   return true;
 }
