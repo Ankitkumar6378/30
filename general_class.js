@@ -8,7 +8,7 @@
     }
     else if(!document.getElementById('password').value.trim().length){
     isValid = false;
-         alert('Please enter password');
+     alert('Please enter password');
     }
    return true;
 }
