@@ -24,7 +24,18 @@
             <button id="btn" name="register" onclick="test()" value="Submit">Login</button>
             
         </form>
-        <!-- <div id="console"></div> -->
+         <ul  >
+                                    
+            
+            <h3> For Submit and Store the Username and Password Follow the Rules :-- </h3>
+            <li>Username and Password Cannot be Blank </li>
+            <li>No Special and Numeric Charaters are Allowed in User name</li>
+            <li> You can Enter minimum 5 and maximum 15 values.</li>
+            <li> 1 Numeric Value Must Be include in Password.</li>
+            <li> Atleast 1 Small letter and 1 Capital letter must be Enter in Password. </li>
+            <li>Special Characters must be Enter in Password </li>
+
+        </ul>
     </div>
     <script>
         function test()
