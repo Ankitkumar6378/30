@@ -1,5 +1,4 @@
 
-<!-- <?php include('action2.php') ?>   -->
 <!DOCTYPE html>
 <html>
 
