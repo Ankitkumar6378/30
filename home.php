@@ -12,10 +12,10 @@ if (isset($_POST['register'])) {
 	<title>HOME</title>
      <style>
           body{
-               margin:0%;
-               padding:0%;
+               margin: 150px 150px; 
                background:skyblue;
                text-align: center;
+               font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                
                
           }
